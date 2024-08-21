@@ -1,0 +1,109 @@
+/* .castoro-titling-regular {
+    font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.castoro-regular {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .castoro-regular-italic {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: italic;
+} */
+  
+
+*::before,
+*,
+*::after {
+    box-sizing: border-box;
+}
+
+/* root{} */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    text-align: center;
+    width: 60%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.top h3 {
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.top h1 {
+    font-family: "Castoro Titling", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-top: 0;
+    font-size: 3rem;
+}
+
+.main {
+    border: 5px solid;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.main p {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.input-div {
+    /* background-color: yellowgreen; */
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.input-div input {
+    width: 75%;
+}
+
+#convert-btn {
+    height: 4rem;
+    width: 50%;
+    color: darkolivegreen;
+    /* margin-bottom: 1rem; */
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.answer-div {
+    height: 4rem;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-div p {
+    font-size: 1.2rem;
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    padding-top: 0;
+    margin-top: 0;
+}
